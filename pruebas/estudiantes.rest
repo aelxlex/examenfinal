@@ -1,0 +1,13 @@
+GET http://127.0.0.1:5000/docentes
+
+### GET http://127.0.0.1:5000/docentes/:123456
+
+### POST http://127.0.0.1:5000/docentes
+
+{ "ci_e": "654321", "nombre_e": "Maria", "apell_pat_e": "Flores", "apell_mat_e": "Taca", "celular_e": 87652411, "direccion_e": "Calle La Paz" }
+
+### PUT http://127.0.0.1:5000/docentes/:123456
+
+{ "nombre_e": "Julio", "apell_pat_e": "Alvarez", "apell_mat_e": "Mamani", "celular_e": 872361564, "direccion_e": "Calle Oruro" }
+
+### DELETE http://127.0.0.1:5000/docentes/:123456
